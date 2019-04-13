@@ -10,9 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lib": "file:../../lib"
-  },
   "devDependencies": {
     "serverless-offline": "^4.9.4",
     "typescript": "^3.4.3"
