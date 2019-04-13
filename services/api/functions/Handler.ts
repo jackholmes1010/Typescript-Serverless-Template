@@ -1,9 +1,7 @@
-import IEvent from '../lib/IEvent'
-import IResponse from '../lib/IResponse'
+import IEvent from 'lib/build/IEvent'
+import IResponse from 'lib/build/IResponse'
+import { ok } from 'lib/build/Responses'
 
 export const index = async (event: IEvent): Promise<IResponse> => {
-    return {
-        statusCode: 200,
-        body: 'This is a lambda function'
-    }
+    return ok('this is a lambd function')
 }

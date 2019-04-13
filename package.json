@@ -1,0 +1,21 @@
+{
+  "name": "Typescript-Serverless-Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd lib && npm run build && cd .. && cd services/api && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackholmes1010/Typescript-Serverless-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackholmes1010/Typescript-Serverless-Template/issues"
+  },
+  "homepage": "https://github.com/jackholmes1010/Typescript-Serverless-Template#readme"
+}

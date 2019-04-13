@@ -4,13 +4,17 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm i && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "lib": "file:../../lib"
+  },
   "devDependencies": {
+    "serverless-offline": "^4.9.4",
     "typescript": "^3.4.3"
   }
 }
