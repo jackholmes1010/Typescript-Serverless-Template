@@ -6,7 +6,7 @@ provider:
 
 functions:
   index:
-    handler: build/functions/Handler.index
+    handler: build/functions/handler.index
 
     events:
       - http:
